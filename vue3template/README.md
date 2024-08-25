@@ -1,6 +1,7 @@
-# vue3prj1
+# vue3template
 
 This template should help get you started developing with Vue 3 in Vite.
+Default Menu and page Layout placeholders , can be used as basic scaffolding Vue3 ui project.
 
 ## Recommended IDE Setup
 
