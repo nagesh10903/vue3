@@ -1,18 +1,11 @@
 <script setup>
-import { ref } from 'vue'
+import { ref,computed } from 'vue'
+import {  useStore } from "vuex";
 
-const userLoggedin = ref(true)
+const store=useStore();
+const isLoggedinUser =computed(()=>store.getters['userlogin/isLoggedinUser']);
 
-function isuserLoggedin() {
-  return userLoggedin.value;
-}
-function setUserLoggedin(status) {
-   userLoggedin.value=status;
-}
-
-function toggleUserLoggedin() {
-   userLoggedin.value=!userLoggedin.value;
-}
+const userLoggedin = ref(isLoggedinUser.value);
 </script>
 
 <template>
@@ -23,8 +16,8 @@ function toggleUserLoggedin() {
    </nav>  
 </div>
 </template>
-<style scoped>
 
+<style scoped>
 .login-menu {
   position: fixed;
   display: flex;

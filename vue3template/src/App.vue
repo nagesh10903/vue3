@@ -7,14 +7,13 @@ import PageFooter from './components/header/PageFooter.vue'
 <template>
   <div>
   <page-header /> 
-  <page-layout class="content" /> 
+  <div  class="page-content"> 
+  <page-layout /> 
+</div>
   <page-footer/>
 </div>
 </template>
 
 <style scoped>
-.content {
-  flex: 1;
-  overflow: auto;
-}
+
 </style>
