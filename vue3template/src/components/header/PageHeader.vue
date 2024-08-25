@@ -1,6 +1,9 @@
 <script  setup>
 import DefaultMenu from '../menu/DefaultMenu.vue';
 import LoginMenu from '../menu/LoginMenu.vue';
+
+
+
 </script>
 
 

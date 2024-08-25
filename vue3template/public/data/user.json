@@ -1,0 +1,14 @@
+[
+{"userName":"nagesh",
+"email":"nagesh@gmail.com",
+"userType":"Admin"
+},
+{"userName":"nageshguest",
+"email":"nageshguest@gmail.com",
+"userType":"Guest"
+},
+{"userName":"nageshuser",
+"email":"nageshuser@gmail.com",
+"userType":"User"
+}
+]
